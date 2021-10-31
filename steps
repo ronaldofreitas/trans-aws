@@ -1,0 +1,3 @@
+zip -r trans.zip .
+
+aws lambda update-function-code --function-name trans --zip-file fileb://trans.zip
